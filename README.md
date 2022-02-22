@@ -14,6 +14,7 @@ Software Development Engineer in Test (SDET) with 9 years of IT experience. Expe
 
 ### **AUTOMATION CONSULTANT**
 ### INFOSYS
+
 •	Developed automation framework for web application testing using JavaScript, WebdriverIO with Jasmine framework.
 
 •	Parallel execution of automation scripts in different browser and OS combinations using cloud platform - SauceLabs.
