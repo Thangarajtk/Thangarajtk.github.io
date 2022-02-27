@@ -32,7 +32,9 @@ Software Development Engineer in Test (SDET) with 9 years of IT experience. Expe
   <a href="https://serenity-bdd.github.io/theserenitybook/latest/index.html" target="_blank" rel="noreferrer"> 
   <img src="https://serenity-bdd.info/wp-content/uploads/elementor/thumbs/serenity-bdd-pac9onzlqv9ebi90cpg4zsqnp28x4trd1adftgkwbq.png" alt="serenity-bdd" width="90" height="40"/> </a>
   <a href="https://www.katalon.com/" target="_blank" rel="noreferrer"> 
-  <img src="https://d1h3p5fzmizjvp.cloudfront.net/themes/katalon_4/images/optimized_image_2020/katalon_template_1809/logo@2x.png" alt="katalon" width="90" height="40"/> </a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Katalon_Studio_logo.png?20180517091013" alt="katalon" width="90" height="40"/> </a>
+  <a href="https://saucelabs.com/" target="_blank" rel="noreferrer"> 
+  <img src="https://d2h1nbmw1jjnl.cloudfront.net/company_directory_entries/company_logos/000/000/055/original/Sauce-Labs_Vert_Red-Grey_RGB-1000x1000.png?1543624837" alt="saucelabs" width="50" height="40"/> </a>
 </p>
   
 ---
