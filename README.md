@@ -13,7 +13,7 @@ Software Development Engineer in Test (SDET) with 9+ years of IT experience. Exp
   <a href="https://appium.io/" target="_blank" rel="noreferrer"> 
   <img src="https://camo.githubusercontent.com/3eb867d17687f3afdc1f69c250427f98c9577286e83d4d8c10ca7683287549ad/68747470733a2f2f7777772e6b6579746f72632e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031342f30382f61707069756d2e706e67" alt="appium" width="90" height="50"/> </a>
    <a href="https://rest-assured.io/" target="_blank" rel="noreferrer"> 
-   <img src="https://github.com/rest-assured/rest-assured/blob/master/rest-assured-logo-green.png" alt="REST Assured" width="120" height="40"/> </a> 
+   <img src="https://github.com/rest-assured/rest-assured/blob/master/rest-assured-logo-green.png" alt="REST Assured" width="110" height="40"/> </a> 
    <a href="https://cucumber.io/" target="_blank" rel="noreferrer"> 
   <img src="https://www.vectorlogo.zone/logos/cucumberio/cucumberio-icon.svg" alt="cucumber" width="40" height="40"/> </a>
   <a href="https://www.cypress.io" target="_blank" rel="noreferrer"> 
@@ -52,7 +52,7 @@ Software Development Engineer in Test (SDET) with 9+ years of IT experience. Exp
 ## Experience
 
 ### **AUTOMATION CONSULTANT**
-### INFOSYS
+### INFOSYS LIMITED
 
 •	Developed automation framework and scripts for web application testing using WebdriverIO with Mocha/Jasmine framework and JavaScript.
 
