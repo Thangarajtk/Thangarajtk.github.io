@@ -3,7 +3,10 @@ logo: "/profile.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
  Automation Consultant | SDET
   <br>
-  <a href="https://www.linkedin.com/in/thangaraj-kumaraswamy/">LinkedIn Profile</a>
+  <p align="left">
+   <a href="https://linkedin.com/in/thangaraj-kumaraswamy" target="blank">
+   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thangaraj-kumaraswamy" height="30" width="40" />LinkedIn Profile</a>
+  </p>
   <br>
   <a href="https://github.com/Thangarajtk/">Gihub</a> 
 theme: jekyll-theme-minimal
