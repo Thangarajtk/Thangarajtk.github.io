@@ -1,13 +1,8 @@
 ## Portfolio
 
-Software Development Engineer in Test (SDET) with 9 years of IT experience. Expertise in design and development of various test automation frameworks for testing Web, API and Mobile applications.
+Software Development Engineer in Test (SDET) with 9+ years of IT experience. Expertise in design and development of various test automation frameworks for testing Web, API and Mobile applications.
 
 ---
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/thangaraj-kumaraswamy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thangaraj-kumaraswamy" height="30" width="40" /></a>
-</p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -50,7 +45,7 @@ Software Development Engineer in Test (SDET) with 9 years of IT experience. Expe
   <img src="https://www.vectorlogo.zone/logos/browserstack/browserstack-ar21.svg" alt="browserstack" width="90" height="50"/> </a>
    <a href="https://aerokube.com/selenoid/latest/" target="_blank" rel="noreferrer"> 
   <img src="https://aerokube.com/selenoid/latest/img/og-image.jpg" alt="selenoid" width="90" height="50"/> </a>
-  </p>
+</p>
   
 ---
 
@@ -59,7 +54,7 @@ Software Development Engineer in Test (SDET) with 9 years of IT experience. Expe
 ### **AUTOMATION CONSULTANT**
 ### INFOSYS
 
-•	Developed automation framework and scripts for web application testing using WebdriverIO with Jasmine framework and JavaScript.
+•	Developed automation framework and scripts for web application testing using WebdriverIO with Mocha/Jasmine framework and JavaScript.
 
 •	Parallel execution of automation scripts in different browser and OS combinations using cloud platforms - SauceLabs and BrowserStack.
 
@@ -80,11 +75,9 @@ Software Development Engineer in Test (SDET) with 9 years of IT experience. Expe
 ### **LEAD ENGINEER**
 ### HCL TECHNOLOGIES
 
-•	Developed automation framework and scripts using Appium with Java for mobile application testing in Android & IOS and Selenium Webdriver with Cucumber-Java (BDD) for web application testing.
+•	Developed automation framework and scripts using Appium with Java for mobile application testing in Android & IOS devices and Selenium Webdriver with Cucumber-Java (BDD) for web application testing.
 
-•	Developed automation test scripts using Selenium Webdriver with TestNG framework and Java.
-
-•	Automated web services/API using REST Client plugin and Rest Assured.
+•	Automated web services using REST Client plugin and Rest Assured.
 
 •	Execution of Selenium test scripts across different browsers and Appium test scripts in Android & IOS devices.
 
