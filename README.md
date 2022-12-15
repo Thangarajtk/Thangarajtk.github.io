@@ -1,6 +1,6 @@
 ## Portfolio
 
-Software Development Engineer in Test (SDET) with 9+ years of IT experience. Expertise in design and development of various test automation frameworks for testing Web, API and Mobile applications.
+Energetic SDET with 9+ years of IT industry experience in design and development of various test automation frameworks for testing web, api and mobile applications, professional in handling and adapting trending tools and technologies.
 
 ---
 
