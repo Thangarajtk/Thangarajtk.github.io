@@ -1,6 +1,8 @@
 ## Portfolio
 
-Energetic SDET with 9+ years of IT industry experience in design and development of various test automation frameworks for testing web, api and mobile applications, professional in handling and adapting trending tools and technologies.
+Passionate SDET Engineer | 12 Years of IT Industry Expertise
+
+With over a decade of experience, I specialize in designing and implementing robust test automation frameworks across web, API, and mobile platforms. I am highly skilled in leveraging a wide range of tools and technologies to drive quality and efficiency in software development and testing.
 
 ---
 
