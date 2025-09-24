@@ -1,7 +1,0 @@
-title: Thangaraj Kumaraswamy # your name (or website title) here
-logo: "/profile.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
- Automation Consultant | SDET
-  <br>
-   <a href="https://linkedin.com/in/thangaraj-kumaraswamy" target="blank">LinkedIn Profile</a>
-theme: jekyll-theme-minimal
