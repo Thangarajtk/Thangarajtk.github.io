@@ -22,6 +22,8 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Sections CSS (projects & certifications) -->
+    <link href="assets/css/sections/sections.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -31,7 +33,7 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-        <img src="assets/img/my-profile-img.jpg" alt="Profile Image" class="img-fluid rounded-circle">
+        <img src="assets/img/my-profile-img.jpg" alt="Thangaraj Kumaraswamy" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -50,6 +52,7 @@
             <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
             <li><a href="#skills"><i class="bi bi-bar-chart navicon"></i> Skills</a></li>
             <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+            <li><a href="#certifications"><i class="bi bi-award navicon"></i> Certifications</a></li>
             <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
             <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
@@ -73,13 +76,19 @@
     <section id="about" class="about section">
         <div class="container section-title" data-aos="fade-up">
             <h2>About</h2>
-            <p>Lead Software Development Engineer in Test with 12+ years of experience in building automation frameworks for Web, Mobile, and API platforms. Skilled in scaling QA practices, mentoring teams, and integrating automation into CI/CD pipelines to accelerate release quality.</p>
+            <p>
+                <span class="highlight">Lead Software Development Engineer in Test</span> with 12+ years of progressive experience in architecting and implementing comprehensive automation frameworks across <span class="highlight">Web, Mobile, and API platforms</span>.
+
+                Proven expertise in <span class="highlight">scaling enterprise QA practices</span>, leading high-performing engineering teams, and seamlessly integrating advanced automation solutions into CI/CD pipelines to accelerate delivery cycles while maintaining exceptional quality standards.
+
+                Passionate about driving <span class="highlight">technical innovation</span> and fostering collaborative environments that deliver measurable business impact through strategic test automation initiatives.
+            </p>
         </div>
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row gy-4">
                 <div class="col-lg-4">
-                    <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="Thangaraj Kumaraswamy">
                 </div>
                 <div class="col-lg-8 content">
                     <h2>Lead SDET & Automation Architect</h2>
@@ -99,7 +108,12 @@
     <section id="skills" class="skills section light-background">
         <div class="container section-title" data-aos="fade-up">
             <h2>Skills</h2>
-            <p>Comprehensive expertise in test automation, QA leadership, and modern DevOps practices across web, mobile, API, and cloud platforms.</p>
+            <p>
+                With over a decade of experience in Quality Engineering and Test Automation, I bring
+                a blend of technical expertise, leadership, and hands-on delivery across
+                web, mobile, API, and cloud platforms. My focus is on building scalable frameworks,
+                enabling CI/CD, and driving quality-first engineering culture.
+            </p>
         </div>
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -119,18 +133,18 @@
                     </div>
 
                     <div class="progress">
-                        <span class="skill">Mobile Automation (Appium) <i class="val">88%</i></span>
+                        <span class="skill">Mobile Automation (Appium for Android & iOS) <i class="val">88%</i></span>
                         <div class="progress-bar-wrap"><div class="progress-bar" style="width:88%"></div></div>
                     </div>
 
                     <div class="progress">
-                        <span class="skill">BDD Frameworks (Cucumber JVM, Serenity) <i class="val">90%</i></span>
-                        <div class="progress-bar-wrap"><div class="progress-bar" style="width:90%"></div></div>
+                        <span class="skill">API Automation (REST Assured, Feign, Karate, Postman, Spring Boot) <i class="val">93%</i></span>
+                        <div class="progress-bar-wrap"><div class="progress-bar" style="width:93%"></div></div>
                     </div>
 
                     <div class="progress">
-                        <span class="skill">API Automation (Rest Assured, Feign, Karate, Postman, Spring Boot) <i class="val">93%</i></span>
-                        <div class="progress-bar-wrap"><div class="progress-bar" style="width:93%"></div></div>
+                        <span class="skill">BDD Frameworks (Cucumber JVM, Serenity BDD) <i class="val">90%</i></span>
+                        <div class="progress-bar-wrap"><div class="progress-bar" style="width:90%"></div></div>
                     </div>
 
                 </div>
@@ -139,17 +153,17 @@
                 <div class="col-lg-6">
 
                     <div class="progress">
-                        <span class="skill">Performance / Load Testing (Gatling) <i class="val">80%</i></span>
+                        <span class="skill">Performance & Load Testing (Gatling) <i class="val">80%</i></span>
                         <div class="progress-bar-wrap"><div class="progress-bar" style="width:80%"></div></div>
                     </div>
 
                     <div class="progress">
-                        <span class="skill">DevOps & CI/CD (Docker, Jenkins, Concourse) <i class="val">85%</i></span>
+                        <span class="skill">DevOps & CI/CD (Jenkins, Docker, Concourse) <i class="val">85%</i></span>
                         <div class="progress-bar-wrap"><div class="progress-bar" style="width:85%"></div></div>
                     </div>
 
                     <div class="progress">
-                        <span class="skill">Cloud & Messaging (AWS S3, SQS / BrowserStack, Sauce Labs) <i class="val">82%</i></span>
+                        <span class="skill">Cloud & Platforms (AWS S3, SQS, EC2, Cloudwatch, Kinesis, Kafka, BrowserStack, Sauce Labs) <i class="val">82%</i></span>
                         <div class="progress-bar-wrap"><div class="progress-bar" style="width:82%"></div></div>
                     </div>
 
@@ -206,54 +220,58 @@
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">Professional Experience</h3>
+
                     <div class="resume-item">
                         <h4>Lead SDET</h4>
                         <h5>Jul 2022 - Present</h5>
                         <p><em>Comcast India Engineering Center</em></p>
                         <ul>
-                            <li>Automation Framework Development: Design and implement robust automation frameworks for backend APIs using Rest Assured and Feign with Java, ensuring scalable and maintainable test architecture.</li>
-                            <li>Comprehensive API Testing: Create, execute, and maintain automated test scripts for API endpoints to ensure functionality, reliability, and performance across diverse service integrations.</li>
-                            <li>CI/CD Pipeline Integration: Configure and maintain Concourse CI pipelines to automate build, test, and deployment processes, ensuring seamless continuous integration and delivery workflows.</li>
-                            <li>Cloud Services Automation: Develop and maintain automation solutions for AWS services including S3, SQS, Kinesis, and Apache Kafka to streamline data handling, messaging, and storage operations.</li>
-                            <li>Test Results Management: Analyze test results, report defects systematically, and track issues through resolution while maintaining high test coverage and quality standards.</li>
-                            <li>Performance & Load Testing: Implement comprehensive performance and load testing for APIs using Gatling with Java to validate scalability and robustness under varying load conditions.</li>
-                            <li>Team Leadership & Mentoring: Lead QA team initiatives, conduct thorough automation code reviews, and mentor junior engineers in best practices and emerging technologies.</li>
+                            <li><span class="highlight">Automation Architecture:</span> Architected and implemented comprehensive automation frameworks for backend services using Rest Assured and Feign with Java, ensuring exceptional scalability and maintainability across enterprise systems.</li>
+                            <li><span class="highlight">Advanced API Testing:</span> Designed and executed sophisticated automated test suites for RESTful APIs, ensuring robust service reliability across complex microservice architectures.</li>
+                            <li><span class="highlight">CI/CD Pipeline Orchestration:</span> Orchestrated Concourse CI pipelines to automate build, test, and deployment processes, delivering seamless continuous integration and delivery workflows with zero-downtime deployments.</li>
+                            <li><span class="highlight">Cloud Infrastructure Automation:</span> Developed cutting-edge automation solutions for AWS services including S3, SQS, Kinesis, and Apache Kafka to streamline data handling, messaging, and storage operations at enterprise scale.</li>
+                            <li><span class="highlight">Quality Assurance Excellence:</span> Systematically analyzed test results, implemented defect tracking workflows, and maintained exceptional test coverage standards while ensuring optimal quality metrics.</li>
+                            <li><span class="highlight">Performance Engineering:</span> Implemented comprehensive performance and load testing strategies using Gatling with Java to validate scalability and system robustness under demanding load conditions.</li>
+                            <li><span class="highlight">Technical Leadership:</span> Successfully led a high-performing team of 5+ QA engineers, established industry-standard code review processes, and mentored junior engineers in advanced test automation methodologies.</li>
                         </ul>
                     </div>
+
                     <div class="resume-item">
                         <h4>SDET / Consultant</h4>
                         <h5>Jun 2019 - Jul 2022</h5>
                         <p><em>Infosys Ltd</em></p>
                         <ul>
-                            <li>Multi-Framework UI Automation: Developed comprehensive automation frameworks for UI testing using WebdriverIO with Mocha/Jasmine (JavaScript) and Selenium with Java for cross-platform compatibility.</li>
-                            <li>Salesforce Automation: Specialized in developing automated test solutions for Salesforce web applications using Katalon Studio, improving testing efficiency and coverage.</li>
-                            <li>Backend API Testing: Built robust automation frameworks for backend API testing using Rest Assured with Java, ensuring comprehensive service validation.</li>
-                            <li>Custom Reporting Solutions: Implemented custom HTML reporting mechanisms integrated with AWS S3 for centralized test result management and stakeholder visibility.</li>
-                            <li>Emerging Technology POCs: Conducted proof of concept initiatives for automating TV applications using specialized vendor tools, exploring new testing frontiers.</li>
-                            <li>Cross-Platform Testing: Executed comprehensive cross-browser testing across multiple browser/OS combinations, integrated with cloud platforms including SauceLabs and BrowserStack.</li>
-                            <li>Jenkins CI/CD Setup: Configured and maintained Jenkins pipelines to automate build, test, and deployment processes, ensuring reliable continuous integration workflows.</li>
+                            <li><span class="highlight">Multi-Platform Automation:</span> Developed robust, scalable UI automation frameworks using WebdriverIO with Mocha/Jasmine (JavaScript) and Selenium WebDriver with Java for cross-platform compatibility.</li>
+                            <li><span class="highlight">Salesforce Testing Excellence:</span> Implemented comprehensive end-to-end test automation for Salesforce web applications using Katalon Studio, dramatically improving testing efficiency and coverage metrics.</li>
+                            <li><span class="highlight">Backend API Validation:</span> Built sophisticated automation frameworks for backend API testing using Rest Assured with Java, ensuring comprehensive service validation and reliability.</li>
+                            <li><span class="highlight">Advanced Reporting Solutions:</span> Designed custom HTML reporting dashboards with AWS S3 integration, providing real-time test execution insights and actionable analytics to key stakeholders.</li>
+                            <li><span class="highlight">Innovation & R&D:</span> Conducted pioneering proof-of-concept initiatives for TV application automation using specialized vendor tools, exploring emerging testing methodologies and technologies.</li>
+                            <li><span class="highlight">Cross-Platform Testing:</span> Established comprehensive browser compatibility testing infrastructure using SauceLabs and BrowserStack, ensuring consistent user experience across diverse browser and OS combinations.</li>
+                            <li><span class="highlight">CI/CD Infrastructure:</span> Configured and maintained Jenkins pipelines for automated build, test, and deployment processes, ensuring reliable and efficient continuous integration workflows.</li>
                         </ul>
                     </div>
+
                     <div class="resume-item">
                         <h4>Lead Engineer</h4>
                         <h5>Apr 2016 - May 2019</h5>
                         <p><em>HCL Technologies</em></p>
                         <ul>
-                            <li>Mobile Test Automation: Implemented comprehensive mobile automation solutions for Android and iOS devices using Appium with Java, covering native and hybrid applications.</li>
-                            <li>BDD Framework Development: Built advanced Selenium + Cucumber frameworks for UI testing, incorporating behavior-driven development methodologies for better test clarity.</li>
-                            <li>Process Improvement: Introduced BDD practices across development teams and conducted thorough automation codebase reviews to ensure quality and maintainability.</li>
-                            <li>API & Web Services Testing: Automated comprehensive web services and API testing using REST Client plugins and Rest Assured, ensuring robust backend validation.</li>
-                            <li>CI/CD Implementation: Established and configured Jenkins pipelines for automated build, test, and deployment processes, optimizing continuous integration and delivery workflows.</li>
+                            <li><span class="highlight">Mobile Test Automation:</span> Implemented comprehensive mobile automation frameworks for Android and iOS platforms using Appium with Java, covering both native and hybrid applications with seamless execution.</li>
+                            <li><span class="highlight">BDD Framework Implementation:</span> Successfully introduced Behavior-Driven Development using Selenium-Cucumber framework, enhancing collaboration between technical teams and business stakeholders through improved test clarity.</li>
+                            <li><span class="highlight">Code Quality Standards:</span> Established rigorous code review processes and automation standards, elevating overall code quality and team development practices.</li>
+                            <li><span class="highlight">API Testing Expertise:</span> Automated complex web service testing workflows using REST Client and Rest Assured, ensuring comprehensive API validation and reliability.</li>
+                            <li><span class="highlight">CI/CD Excellence:</span> Established and configured Jenkins pipelines for automated build, test, and deployment processes, optimizing continuous integration and delivery workflows for maximum efficiency.</li>
                         </ul>
                     </div>
+
                     <div class="resume-item">
                         <h4>Software Engineer</h4>
                         <h5>Mar 2013 - Apr 2016</h5>
                         <p><em>L&T Infotech</em></p>
                         <ul>
-                            <li>Framework Foundation: Built foundational Selenium + Cucumber frameworks for UI testing, establishing automated testing practices and methodologies within the organization.</li>
-                            <li>Early CI/CD Adoption: Configured Jenkins pipelines for automated build, test, and deployment processes, pioneering continuous integration practices in early career stage.</li>
-                            <li>RPA Innovation: Automated complex back-office process flows using Blue Prism, a leading Robotic Process Automation (RPA) tool, improving operational efficiency and reducing manual intervention.</li>
+                            <li><span class="highlight">Test Automation Foundation:</span> Developed comprehensive Selenium-Cucumber BDD framework from the ground up, establishing reusable component libraries and testing standards for future scalability.</li>
+                            <li><span class="highlight">CI/CD Pioneer:</span> Designed and implemented Jenkins-based CI pipelines with automated regression test suites, laying the foundation for modern DevOps practices within the organization.</li>
+                            <li><span class="highlight">Process Automation Innovation:</span> Automated complex back-office process flows using Blue Prism RPA technology, significantly improving operational efficiency while reducing manual intervention and human error.</li>
                         </ul>
                     </div>
                 </div>
@@ -263,91 +281,172 @@
     </section>
     <!-- End Resume -->
 
-    <section id="certification" class="portfolio section light-background">
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section light-background">
         <!-- Section Title -->
-        <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <div class="container section-title" data-aos="fade-up">
             <h2>Certifications</h2>
-        </div><!-- End Section Title -->
+            <p>Industry-recognized credentials validating my expertise in cloud and software testing.</p>
+        </div>
+        <!-- End Section Title -->
+
         <div class="container">
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                <div class="row gy-4 isotope-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 327px;">
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-                        <div class="portfolio-content h-100">
-                            <img src="assets/img/portfolio/aws_cloud_practitioner.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>AWS Cloud Practitioner</h4>
-                                <p>Entry level cloud practitioner</p>
-                                <a href="assets/img/portfolio/aws_cloud_practitioner.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="https://www.credly.com/badges/3eca3949-8406-4b8b-9cc5-dc56980deeb1/linked_in_profile" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="row gy-4 justify-content-center">
+
+                <!-- AWS Certification Card -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="assets/img/portfolio/aws_cloud_practitioner.jpg" alt="AWS Cloud Practitioner" class="img-fluid">
+                        </div>
+                        <div class="cert-info">
+                            <h4>AWS Certified Cloud Practitioner</h4>
+                            <p>Credential validating foundational knowledge of AWS Cloud concepts, services, and best practices.</p>
+                            <div class="cert-links">
+                                <a href="assets/img/portfolio/aws_cloud_practitioner.jpg" class="glightbox" data-gallery="certifications" title="AWS Cloud Practitioner Badge">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                                <a href="https://www.credly.com/badges/3eca3949-8406-4b8b-9cc5-dc56980deeb1/linked_in_profile" target="_blank" title="Verify Certification">
+                                    <i class="bi bi-link-45deg"></i> Verify
+                                </a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
-                </div><!-- End Portfolio Container -->
+                    </div>
+                </div>
+                <!-- End AWS Certification Card -->
+
+                <!-- ISTQB Certification Card -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-card">
+                        <div class="cert-img">
+                            <img src="assets/img/portfolio/istqb_foundation.jpg" alt="ISTQB Foundation Level" class="img-fluid">
+                        </div>
+                        <div class="cert-info">
+                            <h4>ISTQB Foundation Level</h4>
+                            <p>International Software Testing Qualifications Board – Foundation level, achieved in 2013, demonstrating core principles of software testing.</p>
+                            <div class="cert-links">
+                                <a href="assets/img/portfolio/istqb_foundation.jpg" class="glightbox" data-gallery="certifications" title="ISTQB Foundation Level Certificate">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End ISTQB Certification Card -->
+
             </div>
         </div>
     </section>
+    <!-- End Certifications Section -->
 
-    <!-- Project Section -->
+
+    <!-- Projects Section -->
     <section id="portfolio" class="portfolio section light-background">
         <div class="container section-title" data-aos="fade-up">
             <h2>Projects</h2>
-            <p>Highlighted Automation & Testing Frameworks I've built and maintained.</p>
+            <p>Highlighted open-source frameworks and automation solutions I’ve built, maintained, and shared with the QA community.</p>
         </div>
 
         <div class="container">
             <div class="row gy-4">
 
-                <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="portfolio-content h-100">
-                        <img src="assets/img/portfolio/appium-mobile-framework.jpg" class="img-fluid" alt="Appium Mobile Automation Framework">
-                        <div class="portfolio-info">
-                            <h4>Appium Mobile Automation Framework</h4>
-                            <p>Java + Appium framework for Android & iOS with parallel execution, custom reports & stability improvements.</p>
-                            <a href="https://github.com/Thangarajtk/appium-mobileAutomationFramework" class="details-link" title="View on GitHub"><i class="bi bi-link-45deg"></i></a>
+                <!-- Project Card -->
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <a href="https://github.com/Thangarajtk/appium-mobileAutomationFramework" target="_blank" title="View on GitHub">
+                                <i class="bi bi-github project-icon"></i>
+                            </a>
+                            <h4><a href="https://github.com/Thangarajtk/appium-mobileAutomationFramework" target="_blank">Appium Mobile Automation Framework</a></h4>
+                        </div>
+                        <p>Cross-platform Java + Appium framework for Android & iOS with parallel execution, reusable components, and rich reporting.</p>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Appium</span>
+                            <span class="tag">TestNG</span>
+                        </div>
+                        <div class="repo-metrics" data-repo="Thangarajtk/appium-mobileAutomationFramework">
+                            ⭐ 0 | <img src="assets/icons/fork.svg" alt="Forks" class="fork-icon"> 0
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="portfolio-content h-100">
-                        <img src="assets/img/portfolio/appium-mobile-bdd.jpg" class="img-fluid" alt="Appium Mobile Automation Framework BDD">
-                        <div class="portfolio-info">
-                            <h4>Appium Mobile Automation Framework (BDD)</h4>
-                            <p>Cucumber-Java BDD layer on top of Appium with data-driven tests, tags, and comprehensive scenario coverage.</p>
-                            <a href="https://github.com/Thangarajtk/appium-mobile-automation-framework-bdd" class="details-link" title="View on GitHub"><i class="bi bi-link-45deg"></i></a>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <a href="https://github.com/Thangarajtk/appium-mobile-automation-framework-bdd" target="_blank" title="View on GitHub">
+                                <i class="bi bi-github project-icon"></i>
+                            </a>
+                            <h4><a href="https://github.com/Thangarajtk/appium-mobile-automation-framework-bdd" target="_blank">Appium Mobile Automation Framework (BDD)</a></h4>
+                        </div>
+                        <p>Cucumber-Java BDD layer on Appium, enabling feature-driven testing, tagged execution, and scalable step definitions.</p>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Appium</span>
+                            <span class="tag">Cucumber</span>
+                        </div>
+                        <div class="repo-metrics" data-repo="Thangarajtk/appium-mobile-automation-framework-bdd">
+                            ⭐ 0 | <img src="assets/icons/fork.svg" alt="Forks" class="fork-icon"> 0
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="portfolio-content h-100">
-                        <img src="assets/img/portfolio/restassured-api.jpg" class="img-fluid" alt="Rest Assured API Automation">
-                        <div class="portfolio-info">
-                            <h4>Rest Assured API Automation</h4>
-                            <p>Framework for API testing with Java + Rest Assured, handling JSON/XML, integrated with TestNG & Jenkins.</p>
-                            <a href="https://github.com/Thangarajtk/restassured-api-automation" class="details-link" title="View on GitHub"><i class="bi bi-link-45deg"></i></a>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <a href="https://github.com/Thangarajtk/restassured-api-automation" target="_blank" title="View on GitHub">
+                                <i class="bi bi-github project-icon"></i>
+                            </a>
+                            <h4><a href="https://github.com/Thangarajtk/restassured-api-automation" target="_blank">Rest Assured API Automation Framework</a></h4>
+                        </div>
+                        <p>Comprehensive API testing framework with Java + REST Assured, supporting JSON/XML validations, TestNG execution, and CI/CD integration.</p>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Rest Assured</span>
+                            <span class="tag">TestNG</span>
+                        </div>
+                        <div class="repo-metrics" data-repo="Thangarajtk/restassured-api-automation">
+                            ⭐ 0 | <img src="assets/icons/fork.svg" alt="Forks" class="fork-icon"> 0
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                    <div class="portfolio-content h-100">
-                        <img src="assets/img/portfolio/selenium-framework.jpg" class="img-fluid" alt="Selenium Automation Framework">
-                        <div class="portfolio-info">
-                            <h4>Selenium Automation Framework</h4>
-                            <p>Reusable Selenium + Page-Object framework for web UI, cross-browser testing & modular components.</p>
-                            <a href="https://github.com/Thangarajtk/selenium-automation-framework" class="details-link" title="View on GitHub"><i class="bi bi-link-45deg"></i></a>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <a href="https://github.com/Thangarajtk/selenium-automation-framework" target="_blank" title="View on GitHub">
+                                <i class="bi bi-github project-icon"></i>
+                            </a>
+                            <h4><a href="https://github.com/Thangarajtk/selenium-automation-framework" target="_blank">Selenium Web/UI Automation Framework</a></h4>
+                        </div>
+                        <p>Robust web UI automation framework with Selenium + Java, Page Object Model, cross-browser compatibility, and CI/CD readiness.</p>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Selenium</span>
+                            <span class="tag">Page Object</span>
+                        </div>
+                        <div class="repo-metrics" data-repo="Thangarajtk/selenium-automation-framework">
+                            ⭐ 0 | <img src="assets/icons/fork.svg" alt="Forks" class="fork-icon"> 0
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="400">
-                    <div class="portfolio-content h-100">
-                        <img src="assets/img/portfolio/wdio-mocha.jpg" class="img-fluid" alt="WebdriverIO + Mocha JavaScript Framework">
-                        <div class="portfolio-info">
-                            <h4>WDIO + Mocha JavaScript Automation</h4>
-                            <p>Web automation using WebdriverIO (v8) with Mocha, Docker support & Allure Reports for CI pipelines.</p>
-                            <a href="https://github.com/Thangarajtk/WDIO_Mocha_Javascript" class="details-link" title="View on GitHub"><i class="bi bi-link-45deg"></i></a>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <a href="https://github.com/Thangarajtk/WDIO_Mocha_Javascript" target="_blank" title="View on GitHub">
+                                <i class="bi bi-github project-icon"></i>
+                            </a>
+                            <h4><a href="https://github.com/Thangarajtk/WDIO_Mocha_Javascript" target="_blank">WebdriverIO Automation Framework (JS)</a></h4>
+                        </div>
+                        <p>Next-gen browser automation framework build on Javascript with WebdriverIO, Mocha, Docker containerization, Allure reporting, and CI/CD integration.</p>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">WebdriverIO</span>
+                            <span class="tag">Mocha</span>
+                        </div>
+                        <div class="repo-metrics" data-repo="Thangarajtk/WDIO_Mocha_Javascript">
+                            ⭐ 0 | <img src="assets/icons/fork.svg" alt="Forks" class="fork-icon"> 0
                         </div>
                     </div>
                 </div>
@@ -355,7 +454,10 @@
             </div>
         </div>
     </section>
-    <!-- End Project -->
+    <!-- End Projects -->
+
+    <!-- GitHub Repo Stats Script (moved to assets/js/sections/repo-stats.js) -->
+    <script src="assets/js/sections/repo-stats.js"></script>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -403,3 +505,4 @@
 <script src="assets/js/main.js"></script>
 </body>
 </html>
+
